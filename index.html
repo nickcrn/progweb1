@@ -1,73 +1,127 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!doctype html>
+<html lang="pt">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my safe place</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Music</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+        body {
+            font-family: 'Pacifico', cursive;
+            background-color: rgb(237, 199, 255);
+        }
+
+        form {
+            border-radius: 15px;
+            background-color: rgb(255, 255, 255);
+            padding: 70px;
+        }
+
+        .card-group {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+        }
+    </style>
 </head>
+
 <body>
-    <header class="no_list">
-        <nav>
-            <p>Menu</p>
-            <ul class="no_list">
-                <li>
-                    <a href="#hobbies">hobbies</a>
-                    <a href="#rotina">rotina</a>
-                    <a href="musica.html">músicas</a>
-                    <a href="#links">links</a>
-                </li>
-            </ul>
-        </nav>
-        <h1>Welcome to my home</h1>
-    </header>
-    <br><br><br>
-    <center><img src="pikachu.gif" alt="pikachu fofinho"></center>
-    <br><br><br>
-    <h2 id="hobbies">Meus Hobbies</h2>
-    <div class="div1">
-        <ul>
-            <li>Escutar músicas</li>
-            <li>Jogar jogos</li>
-            <li>Admirirar a natureza</li>
-            <li>Tirar fotos do céu, plantas...</li>
-            <li>Desenhar</li>
-            <li>Pensar em novos projetos e ideias</li>
-            <li>Assistir séries</li>
-        </ul>
+    <div class="container-fluid text-center">
+        <header class="container my-2">
+            <h1>Hello World</h1>
+            <p class='fs-5'>Frases de músicas de alguns albúns que são simplismente... perfeitas</p>
+        </header>
+        <br>
+        <form class="pb-2">
+            <div class="card-group">
+                <div class="card m-2 border">
+                    <img src="folklorecover.jpg" class="card-img-top" alt="Folklore album cover">
+                    <div class="card-body">
+                        <h5 class="card-title">Album: Folklore</h5>
+                        <p class="card-text">"You showed me colors<br>You know I can't see with anyone else" - Illicit Affairs</p>
+                        <p class="card-text">"They told me all of my cages were mental<br>So I got wasted like all my potential" - This is me trying</p>
+                        <p class="card-text">"You were my town<br>Now I'm in exile, seein' you out" - Exile</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Artista: Taylor Swift</small>
+                    </div>
+                </div>
+                <div class="card m-2 border">
+                    <img src="evermorecover.jpg" class="card-img-top" alt="Evermore album cover">
+                    <div class="card-body">
+                        <h5 class="card-title">Album: Evermore</h5>
+                        <p class="card-text">"I made you my temple, my mural, my sky" - Tolerate it</p>
+                        <p class="card-text">"I had a feeling so peculiar<br>That this pain would be for... Evermore" - Evermore</p>
+                        <p class="card-text">"Your heart was glass, I dropped it<br>Champagne problems" - Champagne Problems</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Artista: Taylor Swift</small>
+                    </div>
+                </div>
+                <div class="card m-2 border">
+                    <img src="melodramacover.jpg" class="card-img-top" alt="Melodrama album cover">
+                    <div class="card-body">
+                        <h5 class="card-title">Album: Melodrama</h5>
+                        <p class="card-text">"They say, "You're a little much for me, You're a liability" - Liability</p>
+                        <p class="card-text">"All the glamour and the trauma<br>And the f*ckin' melodrama, woah" - Sober II (Melodrama)</p>
+                        <p class="card-text">"All of our heroes fading<br>Now I can't stand to be alone" - Perfect Places</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Artista: Lorde</small>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card-group">
+                <div class="card m-2 border">
+                    <img src="lemonadecover.jpg" class="card-img-top" alt="Lemonade album cover">
+                    <div class="card-body">
+                        <h5 class="card-title">Album: Lemonade</h5>
+                        <p class="card-text">"You can taste the dishonesty<br>It's all over your breath" - Pray you catch me</p>
+                        <p class="card-text">"I'll trade your broken wings for mine<br>I've seen your scars and kissedyour crime" - All Night</p>
+                        <p class="card-text">"Y'all haters corny with that Illuminati mess<br>Paparazzi, catch my fly, and my cocky fresh" - Formation</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Artista: Beyoncé</small>
+                    </div>
+                </div>
+                <div class="card m-2 border">
+                    <img src="nfrcover.jpg" class="card-img-top" alt="Norman F*cking Rockwell album cover">
+                    <div class="card-body">
+                        <h5 class="card-title">Album: NFR</h5>
+                        <p class="card-text">"I said, "Don't be a jerk, don't call me a taxi"<br>Sitting in your sweatshirt, crying in the backseat" - Hapiness is a Butterfly</p>
+                        <p class="card-text">"Me and my girl, we got this relationship<br>I love her so bad, but she treats me like shit" - Doin' Time</p>
+                        <p class="card-text">"You try to push me out, but I just find my way back in<br>Violet, blue, green, red to keep me out, I win" - Cinnamon Girl</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Artista: Lana Del Rey</small>
+                    </div>
+                </div>
+                <div class="card m-2 border">
+                    <img src="swtcover.jpg" class="card-img-top" alt="Sweetener album cover">
+                    <div class="card-body">
+                        <h5 class="card-title">Album: Sweetener</h5>
+                        <p class="card-text">"Oh, why'd you have to be so cute?<br>It's impossible to ignore you, ah" - Goodnight n'go</p>
+                        <p class="card-text">"Oh, I just want you to come with me<br>We on another mentality, Ain't got no tears left to cry" - No tears left to cry</p>
+                        <p class="card-text">"Feel my blood runnin', swear the sky's fallin'<br>How do I know if this sh*t's fabricated?" - Breathin</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Artista: Ariana Grande</small>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <footer class="footer">
+                <h1>Obrigado por ler</h1>
+            </footer>
+        </form>
+        <br>
     </div>
-    <br><br>    
-    <h2 id="rotina">Minha rotina diária</h2>
-    <div class="div2">
-        <ol>
-            <li>acordar bem cedo</li>
-            <li>me arrumar e pegar meu ônibus</li>
-            <li>chegar no IFES</li>
-            <li>estudar muuuuito</li>
-            <li>dependendo do dia, ficar até um pouco mais tarde</li>
-            <li>almoçar e depois ficar estudando nos laboratórios</li>
-            <li>ir para casa felizmente (ou não)</li>
-            <li>Tomar banho</li>
-            <li>tomar café da tarde</li>
-            <li>Fazer um dos meus hobbies</li>
-            <li>revisar alguns conteúdos</li>
-            <li>e dormir...</li>
-        </ol>
-    </div>
-    <br><br>    
-    <h2 id="links">Links Interessantes</h2>
-    <div class="div3">
-        <ul>
-            <li><a href="https://www.youtube.com/watch?v=GF6OwVN-EgQ">Músicas do albúm "Folklore" em piano (Terapia grátis)</a></li>
-            <li><a href="https://www.google.com/doodles?hl=pt-BR">Google Doddles (muito divertido)</a></li>
-            <li><a href="https://apod.nasa.gov/apod/astropix.html">Esse site da NASA tem fotos do espaço diariamente (lindas)</a></li>
-            <li><a href="https://receitas.globo.com/">Site de receitas</a></li>
-            <li><a href="https://www.ev.org.br/">Site do Bradesco com diversos cursos on-line</a></li>
-        </ul>
-    </div>
-    <br><br><br><br>
-    <footer>
-        <h3>Obrigado por visitar!</h3>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
